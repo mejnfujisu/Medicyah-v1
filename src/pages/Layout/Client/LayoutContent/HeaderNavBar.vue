@@ -2,7 +2,10 @@
   <md-toolbar md-elevation="0" class="md-transparent">
     <div class="md-toolbar-row">
       <div class="md-toolbar-section-start">
-        <h3 class="md-title">{{ $route.name }}</h3>
+        <h2>
+          <span style="color: #4ACCDD">MEDI</span>
+          <span style="color: #79EC0D">CYAH</span>
+        </h2>
       </div>
       <div class="md-toolbar-section-end">
         <md-button

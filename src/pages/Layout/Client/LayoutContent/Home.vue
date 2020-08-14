@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="content background-content-home">
     <!-- <div id="login" class="popup" role="dialog">
       <div class="modal-dialog">
         <div class="story-box">
@@ -15,46 +15,19 @@
       </div>
     </div> -->
     <!--End Of Login Popup-->
-    <div class="main-wrapper-first">
-      <header>
-        <div class="container">
-          <div class="header-wrap">
-            <div class="header-top d-flex justify-content-between align-items-center">
-              <div class="logo">
-                <h2>
-                  <span style="color: #4ACCDD">MEDI</span>
-                  <span style="color: #79EC0D">CYAH</span>
-                </h2>
-              </div>
-              
-              <div class="main-menubar d-flex align-items-center">
-                <nav class="hide">
-                  <a href="index.html">Home</a>
-                  <a href="generic.html">Generic</a>
-                  <a href="elements.html">Elements</a>
-                </nav>
-                <div class="menu-bar">
-                  <span class="lnr lnr-menu"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-    </div>
 
     <div class="main-wrapper">
       <!-- Start Story Area -->
       <section class="story-area-2">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-4">
+          <div class="row align-items-center display-flex">
+            <div class="percent-40">
               <div class="banner-content text-center">
                 <h1 class="text-white">Diagnosis Service</h1>
                 <h4 class="text-white">Making Better Life</h4>
               </div>
             </div>
-            <div class="col-lg-8">
+            <div class="percent-60">
               <div class="story-box">
                 <h6 class="text-uppercase">The Symptoms You May Having</h6>
                 <ul class="ks-cboxtags">
@@ -142,35 +115,7 @@
       <!-- End Story Area -->
 
       <!-- Start Footer Widget Area -->
-      <section class="footer-widget-area">
-        <footer>
-          <div class="container">
-            <div class="footer-content d-flex justify-content-between align-items-center flex-wrap">
-              <div class="logo">
-                <a class="text-white" href="index.html">Medicyah</a>
-              </div>
-              <div class="copy-right-text">
-                Copyright &copy; 2019 | Template remade for community purposes by
-                <a href="https://colorlib.com" target="_blank" style="color: #12bbd4;">heydeone</a>
-              </div>
-              <div class="footer-social">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-dribbble"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-behance"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </section>
+      
       <!-- End Footer Widget Area -->
     </div>
   </div>

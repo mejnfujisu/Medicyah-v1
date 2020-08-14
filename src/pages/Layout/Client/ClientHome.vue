@@ -17,7 +17,7 @@
 
 <script>
 import TopNavbar from "./LayoutContent/HeaderNavBar.vue";
-import ContentFooter from "../ContentFooter.vue";
+import ContentFooter from "./LayoutContent/FooterNavBar.vue";
 import DashboardContent from "../Content.vue";
 import FixedPlugin from "../Extra/FixedPlugin.vue";
 

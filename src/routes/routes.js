@@ -11,7 +11,7 @@ import Maps from "@/pages/Maps.vue";
 import Notifications from "@/pages/Notifications.vue";
 import UpgradeToPRO from "@/pages/UpgradeToPRO.vue";
 //Client
-import C_Home from "@/pages/Layout/Client/LayoutContent/Home.vue";
+import Home from "@/pages/Layout/Client/LayoutContent/Home.vue";
 
 const routes = [
   {
@@ -26,8 +26,7 @@ const routes = [
         children: [
           {
             path: "home",
-            name: "MEDICYAH",
-            component: C_Home
+            component: Home
           },
         ]
       },
